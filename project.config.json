@@ -1,0 +1,106 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "bundle": false
+  },
+  "appid": "wxa84f58f3c8fd3c4b",
+  "projectname": "MyAppCai",
+  "libVersion": "2.11.3",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "add菜谱",
+          "pathName": "pages/pbmenutype/pbmenutype",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "wode",
+          "pathName": "pages/personal/personal",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "formadd",
+          "pathName": "pages/pbmenu/pbmenu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/typelist/typelist",
+          "pathName": "pages/typelist/typelist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/recipeDetail/recipeDetail",
+          "pathName": "pages/recipeDetail/recipeDetail",
+          "query": "recipeId=b1a52c595fc74bbe00ccf5726d8ea083&title=麻婆豆腐",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "recipeId=b1a52c595fc74bbe00ccf5726d8ea083&title=麻婆豆腐",
+          "scene": null
+        },
+        {
+          "name": "pages/recipelist/recipelist",
+          "pathName": "pages/recipelist/recipelist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/typelist/typelist",
+          "pathName": "pages/typelist/typelist",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
